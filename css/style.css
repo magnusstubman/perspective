@@ -65,11 +65,14 @@ hr{
 }
 /* Header */
 
-header{
+header {
 	background-color:rgba(0,0,0,0.3);
 	height:80px;
-	margin-bottom:15px;
 	border-bottom:1px solid #000;
+}
+
+header .hero {
+	margin-bottom:15px;
 }
 
 header .logo h1{
@@ -114,7 +117,6 @@ header .navigation a:hover{
 }
 
 /* Hero */
-
 .hero{
 	padding:20px 0;
 }
@@ -641,9 +643,10 @@ margin-bottom:0px;
 	padding-bottom:60px;
 }
 
-.shots .screenshot img{
-	width:300px;
+.shots .screenshot {
+	width:100%;
 	margin:0px auto;
+	padding: 20px 0;
 }
 
 .shots .shotcontent h3{
